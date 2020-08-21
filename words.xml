@@ -18,10 +18,7 @@
 				['text' => 'Sony', 'callback_data' => 'Sony'],
 				['text' => 'Microsoft', 'callback_data' => 'Microsoft'],
 				['text' => 'Nintendo', 'callback_data' => 'Nintendo'],
-			] <!-- , [
-				['text' => 'PC', 'url' => 'https://www.gamesandconsoles.org/category/mondo-pc/guide-pc/'],
-				['text' => 'Raspberry PI', 'url' => 'https://www.gamesandconsoles.org/category/raspberry-pi/'],
-			]-->]</keyboard>
+			]]</keyboard>
 			<photo>AgACAgQAAxkBAAIGlF8_3z1UmBO4uBkSApR3ApEXc31sAALgszEbCm0AAVJa8qIe_U1u200G_CJdAAMBAAMCAANtAAN8SAUAARsE</photo>
 	</word>
 

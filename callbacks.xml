@@ -1,0 +1,91 @@
+<callbacks>
+
+<!-- ****************************** MAIN MENU ******************************** -->
+	<callback>guida
+		<msgtosend>$first_name.PHP_EOL."Seleziona la marca di console per cui ti serve la guida".PHP_EOL</msgtosend>
+		<keyboard>[[
+				['text' => 'Sony', 'callback_data' => 'Sony'],
+				['text' => 'Microsoft', 'callback_data' => 'Microsoft'],
+				['text' => 'Nintendo', 'callback_data' => 'Nintendo'],
+			], [
+				['text' => 'PC', 'url' => 'https://www.gamesandconsoles.org/category/mondo-pc/guide-pc/'],
+				['text' => 'Raspberry PI', 'url' => 'https://www.gamesandconsoles.org/category/raspberry-pi/'],
+			]]</keyboard>
+			<photo>AgACAgQAAxkBAAIGlF8_3z1UmBO4uBkSApR3ApEXc31sAALgszEbCm0AAVJa8qIe_U1u200G_CJdAAMBAAMCAANtAAN8SAUAARsE</photo>
+	</callback>
+
+
+	<callback>Sony
+		<msgtosend>$first_name.PHP_EOL." ora seleziona per quale console ti serve aiuto".PHP_EOL</msgtosend>
+		<keyboard>[[
+<!--					['text' => 'Playstation 1', 'callback_data' => 'SPS1'],
+					['text' => 'Playstation 2', 'callback_data' => 'SPS2'],				-->
+					['text' => 'Playstation 3', 'url' => 'https://www.gamesandconsoles.org/category/console/sony/ps3/guide-ps3/'],
+					['text' => 'Playstation 4', 'url' => 'https://www.gamesandconsoles.org/category/console/sony/ps4/guide-ps4/'],
+				], [
+					['text' => 'Playstation 5', 'callback_data' => 'SPS5'],
+					['text' => 'PS Vita', 'url' => 'https://www.gamesandconsoles.org/category/console/sony/psvita/guide-psvita/'],
+					['text' => '&lt;- indietro', 'callback_data' => 'guida'],
+<!--					['text' => 'PSP', 'callback_data' => 'SPSP'],	-->
+				]]</keyboard>
+		<photo>AgACAgQAAxkBAAIGwF8_9dC3AAE3xETWCoU0IHgt-rMLIwACi7QxGwptAAFSJodGRx6QfiBsBt8iXQADAQADAgADbQADyksFAAEbBA</photo>
+	</callback>
+
+	<callback>Microsoft
+		<msgtosend>$first_name.PHP_EOL." ora seleziona per quale console ti serve aiuto".PHP_EOL</msgtosend>
+		<keyboard>[[
+					['text' => 'XBOX ONE', 'url' => 'https://www.gamesandconsoles.org/category/mondo-microsoft/xboxone/guide-xboxone/'],
+<!--					['text' => 'XBOX 360', 'callback_data' => 'MXB360'],		-->
+					['text' => '&lt;- indietro', 'callback_data' => 'guida'],
+				]]</keyboard>
+	<photo>AgACAgQAAxkBAAIGw18_9l6U8_07Hf1UXgyGTOX5za9eAAKMtDEbCm0AAVJ0F4c1uoAsWdR_-iJdAAMBAAMCAANtAAPNTAUAARsE</photo>
+	</callback>
+
+
+	<callback>Nintendo
+		<msgtosend>$first_name.PHP_EOL." ora seleziona per quale console ti serve aiuto".PHP_EOL</msgtosend>
+		<keyboard>[[
+					['text' => 'Switch', 'url' => 'https://www.gamesandconsoles.org/category/mondo-nintendo/guide-nintendo-switch/'],
+					['text' => '3DS OLD/NEW', 'url' => 'https://3ds.hacks.guide/it_IT/'],
+					['text' => 'Wii U', 'url' => 'https://wiiu.hacks.guide/'],
+				], [
+					['text' => 'Wii', 'url' => 'https://wii.guide/'],
+					['text' => 'DSi', 'url' => 'https://telegra.ph/AVVIARE-HOMEBREW-E-BACKUP-SU-DSI-NO-UNLAUNCH-07-29'],
+					['text' => '&lt;- indietro', 'callback_data' => 'guida'],
+				]]</keyboard>
+		<photo>AgACAgQAAxkBAAIGxl8__ZDpe9ygfsi2fp2Ep-FORlllAAKNtDEbCm0AAVIWdaYlg0egZ0VN0SJdAAMBAAMCAANtAAMUUgUAARsE</photo>
+	</callback>
+
+
+	<callback>Computer
+		<msgtosend>$first_name.PHP_EOL."Seleziona la marca di console per cui ti serve la guida".PHP_EOL</msgtosend>
+		<keyboard>[[
+					['text' => 'Schede Grafiche', 'callback_data' => 'PSX'],
+					['text' => 'Processore', 'callback_data' => 'PS2'],
+				], [
+					['text' => 'HDD Drives', 'callback_data' => 'PS3'],
+					['text' => 'SSD Drives', 'callback_data' => 'PS4'],
+					['text' => 'Case', 'callback_data' => 'PS5'],
+				]]</keyboard>
+		<photo></photo>
+	</callback>
+
+
+	<callback>Rasp
+		<msgtosend>$first_name.PHP_EOL."Seleziona la marca di console per cui ti serve la guida".PHP_EOL</msgtosend>
+		<keyboard>[[
+					['text' => 'Raspberry 1', 'callback_data' => 'RRPI1'],
+					['text' => 'Raspberry 2', 'callback_data' => 'RRPI2'],
+				], [
+					['text' => 'Raspberry 3', 'callback_data' => 'RRPI3'],
+					['text' => 'Raspberry 4', 'callback_data' => 'RRPI4'],
+					['text' => 'Compute module', 'callback_data' => 'RPICM'],
+				]]</keyboard>
+		<photo></photo>
+	</callback>
+
+<!-- ****************************** MAIN MENU ******************************** -->
+
+
+
+</callbacks>

@@ -1,0 +1,34 @@
+<words>
+	<word>guida
+		<msgtosend>$first_name." ho letto che ti serve qualche guida".PHP_EOL."Seleziona la marca di console per cui ti serve la guida".PHP_EOL."Attenzione, devi aver avviato almeno una volta il bot @GamesAndCons_bot, se non funziona avvialo adesso"</msgtosend>
+		<keyboard>[[
+				['text' => 'Sony', 'callback_data' => 'Sony'],
+				['text' => 'Microsoft', 'callback_data' => 'Microsoft'],
+				['text' => 'Nintendo', 'callback_data' => 'Nintendo'],
+			] <!--, [
+				['text' => 'PC', 'url' => 'https://www.gamesandconsoles.org/category/mondo-pc/guide-pc/'],
+				['text' => 'Raspberry PI', 'url' => 'https://www.gamesandconsoles.org/category/raspberry-pi/'],
+			]-->]</keyboard>
+			<photo>AgACAgQAAxkBAAIGlF8_3z1UmBO4uBkSApR3ApEXc31sAALgszEbCm0AAVJa8qIe_U1u200G_CJdAAMBAAMCAANtAAN8SAUAARsE</photo>
+	</word>
+
+	<word>guide
+		<msgtosend>$first_name." ho letto che ti serve qualche guida".PHP_EOL."Seleziona la marca di console per cui ti serve la guida".PHP_EOL."Attenzione, devi aver avviato almeno una volta il bot @GamesAndCons_bot, se non funziona avvialo adesso"</msgtosend>
+		<keyboard>[[
+				['text' => 'Sony', 'callback_data' => 'Sony'],
+				['text' => 'Microsoft', 'callback_data' => 'Microsoft'],
+				['text' => 'Nintendo', 'callback_data' => 'Nintendo'],
+			] <!-- , [
+				['text' => 'PC', 'url' => 'https://www.gamesandconsoles.org/category/mondo-pc/guide-pc/'],
+				['text' => 'Raspberry PI', 'url' => 'https://www.gamesandconsoles.org/category/raspberry-pi/'],
+			]-->]</keyboard>
+			<photo>AgACAgQAAxkBAAIGlF8_3z1UmBO4uBkSApR3ApEXc31sAALgszEbCm0AAVJa8qIe_U1u200G_CJdAAMBAAMCAANtAAN8SAUAARsE</photo>
+	</word>
+
+	<word>pino
+		<msgtosend>"Oh ".$first_name."!!!".PHP_EOL."e hai finito di scassare la minchia con sto pino, pino e pino...".PHP_EOL."Guarda che ti sento, sto qua.".PHP_EOL.json_decode('"'.'\ud83d\ude21\ud83e\udd2c\ud83d\ude21'.'"')." CHE MINCHIA VUOI???"</msgtosend>
+		<keyboard></keyboard>
+		<photo>AgACAgQAAxkBAAIGn18_4CtBYt_RgQsMy3C9LndbM46_AALkszEbCm0AAVIDJjNE0vORgYr3-CJdAAMBAAMCAAN4AAN4SQUAARsE</photo>
+	</word>
+
+</words>

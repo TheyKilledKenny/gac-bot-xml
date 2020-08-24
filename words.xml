@@ -23,7 +23,7 @@
 	</word>
 
 	<word>pino
-		<msgtosend>"Oh ".$first_name."!!!".PHP_EOL."E ti ho detto che sto qui, dimmi!".PHP_EOL.json_decode('"'.'\ud83d\ude21\ud83e\udd2c\ud83d\ude21'.'"')." che posso fare per te???"</msgtosend>
+		<msgtosend>"Ciao ".$first_name."!!!".PHP_EOL."adesso devo andare al lavoro ".json_decode('"'.'\ud83d\ude21\ud83e\udd2c\ud83d\ude21'.'"').PHP_EOL."Ci possiamo sentire più tardi?"</msgtosend>
 		<keyboard></keyboard>
 		<photo>AgACAgQAAxkBAAIG219ADC7aLG3F0Xrb8OQonc0dtMmDAAKPtDEbCm0AAVJ_qbrIg5XYHv5w9yJdAAMBAAMCAANtAAMRSwUAARsE</photo>
 	</word>
